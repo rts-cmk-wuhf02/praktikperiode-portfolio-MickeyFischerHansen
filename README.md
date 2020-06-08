@@ -57,7 +57,7 @@ React/ Contentful UIComponent projekt (Praktikprojekt) skal fremvises i portfoli
 
 God arbejdsslyst!
 
-# Brians bride ideas
+# Brians bride ideas1238586897808++
 Brian Emilius har skrevet en lille [artikel](https://www.brianemilius.com/portfolio-ideas/)
  som formentligt kan inspirerer jer lidt til cases. Noget har i fra tidligere, andet har i måske lyst til at udvikle i den kommende tid.
 
