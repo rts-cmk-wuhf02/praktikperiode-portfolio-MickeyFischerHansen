@@ -1,0 +1,64 @@
+$primarycolor: blanchedalmond;
+$secondarycolor: black;
+
+
+body {
+    background-color: $primarycolor;
+    margin: 0px;
+}
+
+nav {
+    background-color: $secondarycolor;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+
+     ul {
+        list-style: none;
+        
+         li{
+             padding: 0 1em;
+        }
+    }
+}
+
+.a :hover{
+    background-color: black;
+    color: white;
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+}
+
+ion-icon {
+    color: white;
+    font-size: 2em;;
+  }
+
+#bars__div{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgba(85, 10, 10, 0.767);
+    text-align: left;
+    box-sizing: border-box;
+    display: none;
+}
+
+@media (max-width:768px)
+{
+    .bars__div
+    {
+        display: block;
+    }
+nav
+{
+    display: block;
+        text-align: center;
+}
+ul
+{
+    width: 100%;
+}
+}
