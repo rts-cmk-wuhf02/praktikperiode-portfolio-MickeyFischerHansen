@@ -1,0 +1,32 @@
+.div__box {
+  background-color: green;
+  color: white;
+  position: relative;
+  margin: 2%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 500px; }
+
+.div__box-h2 {
+  position: absolute;
+  left: 0px;
+  top: -50px;
+  color: black;
+  font-size: 18vw;
+  margin: 0px; }
+
+.div__box-h1 {
+  padding-top: 10%;
+  text-align: center; }
+
+.div__box-img {
+  padding: 30px; }
+
+.div__box-p {
+  font-size: 16px;
+  margin: 0 auto 60px;
+  width: 80%;
+  padding: 30px 50px 60px;
+  box-sizing: border-box; }
