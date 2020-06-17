@@ -49,27 +49,29 @@ ion-icon {
     width: 100%; } }
 
 .section__h1-mick {
-  line-height: 1em;
   text-align: left;
-  text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff; }
+  color: #fcc3ad;
+  font-size: 30px; }
 
 .section__h1-fisch {
-  line-height: 1em;
   text-align: center;
-  text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff; }
+  color: #fcc3ad;
+  font-size: 30px; }
 
 .section__h1-hans {
-  line-height: 1em;
   text-align: right;
-  text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff; }
+  color: #fcc3ad;
+  font-size: 30px; }
 
 .main__section {
-  margin: 0px;
-  width: 80%;
-  padding: 10%;
+  position: relative;
+  margin: auto;
+  width: 90%;
   font-size: 16px;
   height: 20%;
-  background-image: url(".././images/bg.jpg");
+  text-align: center;
+  z-index: 3;
+  color: none;
   background-repeat: no-repeat;
   /* Do not repeat the image */
   background-size: cover; }
@@ -206,3 +208,8 @@ ion-icon {
   width: 80%;
   padding: 30px 50px 60px;
   box-sizing: border-box; }
+
+.top__bg {
+  position: absolute;
+  top: 0px;
+  width: 90vw; }

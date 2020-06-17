@@ -8,6 +8,8 @@ body {
     font-family: Inter,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
 }
 
+
+
 img{
     margin: 0px;
     padding: 0px;
@@ -72,30 +74,35 @@ ul
 }
 
 .section__h1-mick{
-    line-height: 1em;
     text-align: left;
-    text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
+    color: rgb(252, 195, 173);
+    font-size: 30px;
+    // text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
 }
 
 .section__h1-fisch{
-    line-height: 1em;
     text-align: center;
-    text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
+    color: rgb(252, 195, 173);
+    font-size: 30px;
+    // text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
 }
 
 .section__h1-hans{
-    line-height: 1em;
     text-align: right;
-    text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
+    color: rgb(252, 195, 173);
+    font-size: 30px;
+    // text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
 }
 
 .main__section{
-    margin: 0px;
-    width: 80%;
-    padding: 10%;
+    position: relative;
+    margin: auto;
+    width: 90%;
     font-size: 16px;
     height: 20%;
-    background-image: url(".././images/bg.jpg");
+    text-align: center;
+   z-index: 3;
+   color: none;
     background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
@@ -106,6 +113,7 @@ ul
     margin-top: 10%;
     font-weight: 400;
     font-size: 8vw;
+   
 }
 
 .div__box{
@@ -264,4 +272,10 @@ ul
     width: 80%;
     padding: 30px 50px 60px;
     box-sizing: border-box;
+}
+
+.top__bg {
+    position: absolute;
+    top: 0px;
+    width: 90vw;
 }

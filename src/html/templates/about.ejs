@@ -1,0 +1,49 @@
+<%- include('../partials/head'); %>
+    <%- include('../partials/header'); %>
+    <%- include('../partials/nav'); %>
+
+<main>
+    <section class="main__section">
+        <h1 class="main__section-h1">About me</h1>
+        <p>Hey my name is Mickey Fischer Hansen
+            im 18 years old and i live in Denmark, i am studying webdevelopment at Roskilde Tekniske Skole.</p>
+    </section>
+
+    <form action="/">
+
+    <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text">
+    </div>
+
+    <div>
+        <label for="subject">Subject</label>
+        <input id="subject" name="subject" type="text">
+    </div>
+
+    <div>
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="text">
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="text">
+    </div>
+
+    <div>
+        <textarea id="message" placeholder="Message" cols="30" rows="10"></textarea>
+    </div>
+
+    <div>
+        <button class="btn">
+            <input type="submit">
+        </button>
+    </div>
+
+</form>
+   
+</main>
+
+<%- include('../partials/footer'); %>
+<%- include('../partials/after-footer'); %>
