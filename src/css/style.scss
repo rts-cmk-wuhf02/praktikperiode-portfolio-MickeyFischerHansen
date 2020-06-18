@@ -274,8 +274,43 @@ ul
     box-sizing: border-box;
 }
 
-.top__bg {
-    position: absolute;
+.top__name {
+    
     top: 0px;
-    width: 90vw;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width:769px)
+{
+    .div__box-h2{
+        color: black;
+        font-size: 12vw;
+        margin: 0px;
+    }
+
+    .section__h1-mick{
+        text-align: left;
+        color: rgb(252, 195, 173);
+        font-size: 50px;
+        text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+    }
+    
+    .section__h1-fisch{
+        text-align: center;
+        color: rgb(252, 195, 173);
+        font-size: 50px;
+        text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+    }
+    
+    .section__h1-hans{
+        text-align: right;
+        color: rgb(252, 195, 173);
+        font-size: 50px;
+         text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+    }
+
 }
