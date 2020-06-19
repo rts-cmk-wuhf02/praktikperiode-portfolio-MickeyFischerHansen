@@ -41,7 +41,6 @@ ion-icon {
 
 .main__section {
   width: 50%;
-  border: solid black;
   margin: auto;
   margin-bottom: 2vw;
   margin-top: 2vw;
@@ -81,7 +80,7 @@ input {
   border-radius: 5%;
   padding: 13vw; }
 
-.form {
+#form {
   text-align: center;
   margin: 0px; }
 
@@ -95,7 +94,6 @@ input {
     padding: 4vw; }
   .main__section {
     width: 50%;
-    border: solid black;
     margin: auto;
     margin-bottom: 2vw;
     margin-top: 2vw;
